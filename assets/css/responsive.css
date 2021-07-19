@@ -1,0 +1,106 @@
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    :root {
+        --header-height : 58px
+    }
+
+    .header__menu-icon > i {
+        display: block;
+        font-size: 2.5rem;
+    }
+
+    
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+   .us__info-left-link,
+   .us__info-right-link {
+        padding: 5px 11px;
+   }
+
+   .process__icon-down::before {
+    bottom: -80%;
+   }
+
+   .process__icon-down > i {
+       margin-top: 30px;
+   }
+}
+/* Mobile */
+@media (max-width: 739px) {
+    .header__menu-icon > i {
+        right: 6%;
+    }
+
+    .title-pseudo-line::after {
+        bottom: 28px;
+    }
+    
+    .title-pseudo-triangle::before {
+        top: 59.5%;
+    }
+
+    .mobile-mg-20-0 {
+        margin: 20px 0;
+    }
+    .us {
+        padding: 60px 0 0 0;
+    }
+    .us__heading {
+        font-size: 2.9rem;
+        line-height: 3.5rem;
+        letter-spacing: 0.14rem;
+    }
+    /* Reason */
+    .mt-140 {
+        margin-top: 0;
+    }
+
+    /* Process */
+    .process-pc-tablet {
+        display: none;
+    }
+
+    .process-mobile {
+        display: block;
+    }
+
+    .process-mobile .process__group {
+        margin-bottom: 50px;
+        position: relative;
+    }
+
+    .process-mobile span::after {
+        font-size: 14rem;
+        color: #00c2e5;
+        opacity: 0.12;
+        position: absolute;
+        bottom: 22%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .process-mobile .num-1::after {
+        content: "1";
+    }
+
+    .process-mobile .num-2::after {
+        content: "2";
+    }
+    .process-mobile .num-3::after {
+        content: "3";
+    }
+    .process-mobile .num-4::after {
+        content: "4";
+    }
+    .process-mobile .num-5::after {
+        content: "5";
+    }
+
+    /* Client */
+    .pt-140 {
+        padding-top: 0px;
+    }
+
+}
